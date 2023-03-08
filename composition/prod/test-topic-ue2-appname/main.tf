@@ -31,7 +31,7 @@ module "call_module" {
         "01"                                       	= {
             # name                                 	= ""
             size                                   	= var.vm_sizes["4vCPU-16GB"]
-            wwwcomputer_name                        =   "vm1computer"
+            wwwcomputer_name                        = "vm1computer"
             zone                                    = "1"
             os_disk                                	= {
                 size_gb                            	= 128
