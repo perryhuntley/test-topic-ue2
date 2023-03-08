@@ -1,0 +1,17 @@
+topic                                   		= "test-topic-ue2"
+stage                                   		= "p"
+application                             		= "appname"
+task                                    		= "appsrv1"
+location                                		= "eastus2"
+heritage                                		= "TBD"       
+contact                                 		= "TBD"
+costcenter                              		= "TBD"       
+executionitem                           		= "TBD"       
+operatedby                              		= "gpo"       
+custom_tags                             		= {}              
+network_type                                   	= "spoke"
+use_default_naming                              = false
+vm_count                                        = 1
+vm_os                                           = "Windows"
+subnet_type                                     = "app"
+grafana_enabled                                 = true
